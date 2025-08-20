@@ -568,11 +568,13 @@ img {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  /* line-height: 22px; */
   line-height: 1.375;
   letter-spacing: 0.01em;
   color: #22343d;
   margin-bottom: 16px;
+}
+.price-option:last-child {
+  margin-bottom: 30px;
 }
 .price-btn {
   border-radius: 8px;
@@ -583,7 +585,6 @@ img {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
-  margin-top: 30px;
   transition: background-color 250ms ease-in-out;
 }
 .price-btn:hover,
@@ -763,6 +764,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .footer-socials-icon {
   stroke: #02897a;
@@ -792,6 +794,7 @@ img {
   font-size: 16px;
   line-height: 2.1875;
   color: #22343d;
+  cursor: pointer;
   transition: color 250ms ease-in-out;
 }
 .footer-resource-item:focus,
