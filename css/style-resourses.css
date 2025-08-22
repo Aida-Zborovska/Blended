@@ -43,6 +43,7 @@
   line-height: 1;
   letter-spacing: -0.03em;
   color: #22343d;
+  background-color: transparent;
   transition: border-color 250ms ease-in-out;
 }
 .hero-input:focus {
